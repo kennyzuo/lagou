@@ -1,0 +1,12 @@
+{
+  "name": "grunt-demo",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "devDependencies": {
+    "grunt": "^1.2.0",
+    "grunt-contrib-clean": "^2.0.0",
+    "load-grunt-tasks": "^5.1.0",
+    "sass": "^1.26.9"
+  }
+}

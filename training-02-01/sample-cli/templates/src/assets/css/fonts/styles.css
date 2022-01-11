@@ -1,0 +1,85 @@
+@charset "UTF-8";
+
+@font-face {
+  font-family: "rt-portal";
+  src:url("fonts/rt-portal.eot");
+  src:url("fonts/rt-portal.eot?#iefix") format("embedded-opentype"),
+    url("fonts/rt-portal.woff") format("woff"),
+    url("fonts/rt-portal.ttf") format("truetype"),
+    url("fonts/rt-portal.svg#rt-portal") format("svg");
+  font-weight: normal;
+  font-style: normal;
+
+}
+
+[data-icon]:before {
+  font-family: "rt-portal" !important;
+  content: attr(data-icon);
+  font-style: normal !important;
+  font-weight: normal !important;
+  font-variant: normal !important;
+  text-transform: none !important;
+  speak: none;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+[class^="rt-icon-"]:before,
+[class*=" rt-icon-"]:before {
+  font-family: "rt-portal" !important;
+  font-style: normal !important;
+  font-weight: normal !important;
+  font-variant: normal !important;
+  text-transform: none !important;
+  speak: none;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.rt-icon-add:before {
+  content: "\74";
+}
+.rt-icon-approve-progress:before {
+  content: "\61";
+}
+.rt-icon-confirm:before {
+  content: "\62";
+}
+.rt-icon-delete:before {
+  content: "\63";
+}
+.rt-icon-disable:before {
+  content: "\64";
+}
+.rt-icon-download:before {
+  content: "\65";
+}
+.rt-icon-enable:before {
+  content: "\66";
+}
+.rt-icon-export:before {
+  content: "\67";
+}
+.rt-icon-import:before {
+  content: "\68";
+}
+.rt-icon-more:before {
+  content: "\69";
+}
+.rt-icon-print:before {
+  content: "\6a";
+}
+.rt-icon-revert:before {
+  content: "\6b";
+}
+.rt-icon-save:before {
+  content: "\6c";
+}
+.rt-icon-search:before {
+  content: "\6d";
+}
+.rt-icon-submit:before {
+  content: "\6e";
+}

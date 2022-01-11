@@ -1,0 +1,8 @@
+{
+  "name": "training-03-01",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "git@github.com:kennyzuo/training-03-01.git",
+  "author": "kennyzuo <353715843@qq.com>",
+  "license": "MIT"
+}

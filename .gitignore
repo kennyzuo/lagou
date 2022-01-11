@@ -1,0 +1,5 @@
+.DS_Store
+.nuxt
+.vscode
+dist
+yarn-error.log

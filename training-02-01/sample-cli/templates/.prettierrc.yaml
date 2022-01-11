@@ -1,0 +1,4 @@
+eslintIntergration: true
+singleQuote: true # Use single quotes instead of double quotes.
+tabWidth: 2
+semi: true

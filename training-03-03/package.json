@@ -1,0 +1,20 @@
+{
+  "name": "training-03-03",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "kennyzuo <353715843@qq.com>",
+  "license": "MIT",
+  "scripts": {
+    "dev": "nuxt",
+    "build": "nuxt build",
+    "start": "nuxt start"
+  },
+  "dependencies": {
+    "axios": "^0.21.0",
+    "cookieparser": "^0.1.0",
+    "dayjs": "^1.10.1",
+    "js-cookie": "^2.2.1",
+    "markdown-it": "^12.0.4",
+    "nuxt": "^2.14.11"
+  }
+}

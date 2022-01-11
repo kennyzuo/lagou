@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>ES Module - 模块特性</title>
+</head>
+<body>
+  <!-- 通过给 script 添加 type = module 属性就可以以 ES Module 的标准执行其中 JS 代码了 -->
+  <script type="module">
+    console.log('this is es module')
+  </script>
+
+  <!-- 自动采用严格模式，忽略 use strict -->
+  <script type="module">
+    console.log(this)
+  </script>
+
+  <!-- 每个 ESM 具有单独的作用域，其它模块无法访问私有变量 -->
+  <script type="module">
+    var msg = 'hello xiaodaidai';
+    console.log(msg);
+  </script>
+
+  <script type="module">
+    console.log(msg)
+  </script>
+
+  <!-- ESM 通过 CORS 方式加载外部 JS 脚本，这要求外部 JS 必须支持 CORS -->
+  <script type="module" src="https://libs.baidu.com/jquery/2.0.0/jquery.min.js"></script>
+</body>
+</html>
